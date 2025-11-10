@@ -1,73 +1,54 @@
-#
+# Instrucciones del Proyecto Final (Grupal)
 
-## Página 1
+Se dividirá al curso en grupos A y B, que tendrán que mostrar avances y exponer en días diferentes. Los grupos serán ubicados aleatoriamente posterior a su inscripción en Canvas.
 
-## Instrucciones del Proyecto Final (Grupal)
+## Cronograma
 
-Se dividirá al curso en grupos A y B, que tendrán que mostrar avances y exponer en días diferentes. Los
-grupos serán ubicados aleatoriamente posterior a su inscripción en Canvas.
+### Entrega de Avance Obligatorio
+- **Grupos sección A:** Lunes 17 de noviembre
+- **Grupos sección B:** Miércoles 19 de noviembre
 
-Entrega de avance obligatorio (para recibir retroalimentación antes de la presentación final): lunes 17 de
-noviembre (Grupos sección A) miércoles 19 de noviembre (Grupos sección B)
+*Para recibir retroalimentación antes de la presentación final*
 
-Presentaciones aleatorias: lunes 24 de noviembre (Grupos sección A) y miércoles 26 de noviembre
-(Grupos sección B)
+### Presentaciones Finales
+- **Grupos sección A:** Lunes 24 de noviembre
+- **Grupos sección B:** Miércoles 26 de noviembre
 
-1. Organización
+## 1. Organización
 
-•
-Integrantes por grupo: 4 a 5 estudiantes.
+### Integrantes por grupo
+- 4 a 5 estudiantes
 
-•
-Entrega final:
+### Entrega final
+1. Póster científico (presentable en computador, formato horizontal)
+2. Presentación oral de 10 minutos con apoyo visual del póster
 
-1. Póster cienIfico (presentable en computador, formato horizontal)
+## 2. Contenido Esperado
 
-2. Presentación oral de 10 minutos con apoyo visual del poster.
+### 1. Caso sociotécnico real vinculado a ética de la IA
+- Debe explicarse la relevancia social y técnica del caso
+- El grupo debe asumir una postura ética central clara desde el inicio
 
-2. Contenido esperado
+### 2. Análisis sociotécnico
+- Descripción técnica (sistema, datos, algoritmos, sesgos, explicabilidad)
+- Actores clave (diseñadores, reguladores, comunidades afectadas)
+- Dinámicas de poder y regulación
+- Integración de lecturas y conceptos de todas las unidades del curso (al menos una lectura por unidad)
+- Debe incluirse bibliografía adicional (al menos una referencia de algún artículo de investigación no visto en clases)
 
-1. Caso sociotécnico real vinculado a éMca de la IA.
+### 3. Discusión ética
+- Riesgos y beneficios identificados
+- Propuestas éticas viables y fundamentadas para abordar el problema
 
-o
-Debe explicarse la relevancia social y técnica del caso.
+### 4. Aspectos formales
 
-o
-El grupo debe asumir una postura éKca central clara desde el inicio.
+#### Póster
+- Claro y visualmente atractivo
+- Al menos 2 elementos visuales:
+  - 1 tomado de fuente académica
+  - 1 propio (como diagrama sociotécnico)
 
-2. Análisis sociotécnico
-
-o
-Descripción técnica (sistema, datos, algoritmos, sesgos, explicabilidad).
-
-o
-Actores clave (diseñadores, reguladores, comunidades afectadas).
-
-o
-Dinámicas de poder y regulación.
-
-o
-Integración de lecturas y conceptos de todas las unidades del curso (al menos una lectura
-por unidad)
-
-o
-Debe incluirse bibliograNa adicional (al menos una referencia de algún arSculo de
-invesMgación no visto en clases).
-
-3. Discusión éKca
-
-o
-Riesgos y beneficios idenMficados.
-
-o
-Propuestas éMcas viables y fundamentadas para abordar el problema.
-
-4. Aspectos formales
-
-o
-Póster : claro, visualmente atracMvo, con al menos 2 elementos visuales (1 tomado de
-fuente académica y 1 propio, como diagrama sociotécnico).
-
-o
-Presentación oral : clara, concisa, con buena división del Mempo entre integrantes y
-adecuada gesMón de preguntas del público.
+#### Presentación oral
+- Clara y concisa
+- Buena división del tiempo entre integrantes
+- Adecuada gestión de preguntas del público
