@@ -1,0 +1,53 @@
+% ============================================================
+% DOCUMENTO PRINCIPAL - Informe Modularizado
+% ============================================================
+% Este archivo es el punto de entrada principal
+% Los módulos se encuentran en la carpeta 'src/'
+
+\input{includes/preamble}
+\input{includes/metadata}
+
+\begin{document}
+
+% ============================================================
+% PORTADA
+% ============================================================
+\maketitle
+
+% ============================================================
+% TABLA DE CONTENIDOS
+% ============================================================
+\newpage
+\tableofcontents
+\newpage
+
+% ============================================================
+% CONTENIDO PRINCIPAL
+% ============================================================
+\input{src/01_introduccion}
+\newpage
+
+\input{src/02_marco_teorico}
+\newpage
+
+\input{src/03_metodologia}
+\newpage
+
+\input{src/04_resultados}
+\newpage
+
+\input{src/05_conclusiones}
+\newpage
+
+% ============================================================
+% REFERENCIAS BIBLIOGRAFICAS
+% ============================================================
+\begin{thebibliography}{99}
+
+\bibitem{ref1} Autor1. (Año). Título del artículo. \textit{Revista}.
+
+\bibitem{ref2} Autor2. (Año). Título del libro. Editorial.
+
+\end{thebibliography}
+
+\end{document}
