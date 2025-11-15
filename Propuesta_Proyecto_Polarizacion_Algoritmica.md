@@ -1,6 +1,6 @@
 # Propuesta de Proyecto Final: Polarización Algorítmica en Redes Sociales Chilenas
 
-## 📋 Información General
+##  Información General
 
 **Tema:** Análisis ético de algoritmos de redes sociales y su impacto en la polarización política en Chile
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Postura Ética Central
+##  Postura Ética Central
 
 ### Tesis Principal
 **Los algoritmos de las redes sociales fomentan activamente la polarización política, erosionando la calidad democrática en Chile.**
@@ -29,7 +29,7 @@
 
 ---
 
-## 🔍 Estructura Propuesta del Proyecto
+##  Estructura Propuesta del Proyecto
 
 ### 1. Introducción
 - Contexto político chileno reciente
@@ -90,28 +90,28 @@
 
 ---
 
-## 📚 Elementos para Cumplir con la Rúbrica
+##  Elementos para Cumplir con la Rúbrica
 
 ### Análisis Sociotécnico (25%)
-- ✅ Descripción técnica de algoritmos y sistemas de IA
-- ✅ Identificación de actores clave
-- ✅ Dinámicas de poder y regulación
-- 📖 Integrar lecturas del curso (al menos una por unidad)
+-  Descripción técnica de algoritmos y sistemas de IA
+-  Identificación de actores clave
+-  Dinámicas de poder y regulación
+-  Integrar lecturas del curso (al menos una por unidad)
 
 ### Investigación Adicional (10%)
-- 📄 Buscar artículos académicos sobre:
+-  Buscar artículos académicos sobre:
   - Polarización algorítmica
   - Estudios de caso en América Latina
   - Ética de sistemas de recomendación
 
 ### Discusión Ética (20%)
-- ✅ Riesgos claramente identificados
-- ✅ Beneficios (si existen) del análisis algorítmico
-- ✅ Propuestas viables y fundamentadas
+-  Riesgos claramente identificados
+-  Beneficios (si existen) del análisis algorítmico
+-  Propuestas viables y fundamentadas
 
 ---
 
-## 🎨 Ideas para el Póster Científico
+##  Ideas para el Póster Científico
 
 ### Visualizaciones Propias a Crear
 - Diagrama de cómo funciona un algoritmo de recomendación
@@ -126,7 +126,7 @@
 
 ---
 
-## 💡 Próximos Pasos
+##  Próximos Pasos
 
 ### Para Colaborar en Este Proyecto:
 
@@ -144,14 +144,14 @@
 
 ---
 
-## 📅 Cronograma del Curso
+##  Cronograma del Curso
 
 - **Avance obligatorio:** [Fecha según sección A o B]
 - **Presentación final:** [Fecha según sección A o B]
 
 ---
 
-## 🤝 Interesados en Participar
+##  Interesados en Participar en que funcion?
 
 *Espacio para que agreguen sus nombres y áreas de interés:*
 
@@ -162,7 +162,7 @@
 
 ---
 
-## 📝 Notas y Comentarios
+##  Notas y Comentarios
 
 *Espacio para sugerencias, dudas o ideas adicionales:*
 
@@ -172,6 +172,6 @@
 
 ---
 
-**Contacto:** [Tu información de contacto]
+**Contacto:** "ers@uc.cl" , "
 
-**Repositorio:** [Si aplicable]
+**Repositorio:** publico
