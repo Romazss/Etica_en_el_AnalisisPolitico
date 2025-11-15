@@ -172,6 +172,6 @@
 
 ---
 
-**Contacto:** "ers@uc.cl" , "
+**Contacto:** "ers@uc.cl" , "benjaminvasquez@uc.cl"
 
 **Repositorio:** publico
