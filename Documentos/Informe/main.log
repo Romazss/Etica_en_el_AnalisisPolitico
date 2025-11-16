@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.19)  16 NOV 2025 05:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.19)  16 NOV 2025 05:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -546,7 +546,7 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthlast=\dimen286
 \titlewidthfirst=\dimen287
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 112.
+Package hyperref Info: Option `colorlinks' set `true' on input line 107.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
@@ -868,7 +868,7 @@ File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
-))) (./includes/metadata.tex) (output/main.aux
+))) (./includes/metadata.tex) (./main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -903,27 +903,27 @@ LaTeX Info: Redefining \% on input line 10.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(65.04256pt, 467.42276pt, 65.04256pt)
-* v-part:(T,H,B)=(65.04256pt, 714.96173pt, 65.04256pt)
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=467.42276pt
-* \textheight=714.96173pt
-* \oddsidemargin=-7.22743pt
-* \evensidemargin=-7.22743pt
-* \topmargin=-44.22743pt
+* \textwidth=481.87546pt
+* \textheight=700.50687pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-37.0pt
 * \headheight=15.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
-* \footskip=60.0pt
-* \marginparwidth=50.0pt
+* \footskip=57.26556pt
+* \marginparwidth=4.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -953,7 +953,7 @@ e
 ))
 Package hyperref Info: Link coloring ON on input line 10.
 
-(output/main.out) (output/main.out)
+(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -969,23 +969,23 @@ Package: xparse 2024-02-18 L3 Experimental document command parser
 File: ../../Logos/logo-uc-02.pdf Graphic file (type pdf)
 <use ../../Logos/logo-uc-02.pdf>
 Package pdftex.def Info: ../../Logos/logo-uc-02.pdf  used on input line 16.
-(pdftex.def)             Requested size: 163.60081pt x 94.38538pt.
+(pdftex.def)             Requested size: 154.20367pt x 88.96399pt.
 
 
-LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <22> not available
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <20> not available
 (Font)              size <20.74> substituted on input line 16.
 
 
-LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <22> not available
+LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <20> not available
 (Font)              size <20.74> substituted on input line 16.
 
 
-LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 16.
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 16.
 
 
-LaTeX Font Warning: Font shape `T1/cmr/m/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 16.
+LaTeX Font Warning: Font shape `T1/cmr/m/it' in size <15> not available
+(Font)              size <14.4> substituted on input line 16.
 
 [1
 
@@ -997,250 +997,131 @@ s/logo-uc-02.pdf>]
 <../../Logos/01_logo_kovan.jpg, id=144, 266.9975pt x 368.37625pt>
 File: ../../Logos/01_logo_kovan.jpg Graphic file (type jpg)
 <use ../../Logos/01_logo_kovan.jpg>
-Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 46.
-(pdftex.def)             Requested size: 37.39467pt x 51.58917pt.
+Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 43.
+(pdftex.def)             Requested size: 38.55092pt x 53.18553pt.
  [2 <../../Logos/01_logo_kovan.jpg>]
 (./src/01_introduccion.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (10.72897pt too wide) in paragraph at lines 20--21
-[]\T1/cmr/m/n/10.95 El pro-ce-so cons-ti-tu-yen-te chi-leno (2021-2022) mos-
+Underfull \hbox (badness 1509) in paragraph at lines 21--22
+[]\T1/cmr/m/n/10.95 El pro-ce-so cons-ti-tu-yen-te chi-leno (2021-2022)
  []
 
 
-Overfull \hbox (8.84486pt too wide) in paragraph at lines 22--23
-[]\T1/cmr/m/n/10.95 Documentación de au-men-to sig-ni-fi-ca-ti-vo des-
+Underfull \hbox (badness 1742) in paragraph at lines 26--27
+[]\T1/cmr/m/n/10.95 20.000 bots coor-di-na-dos du-ran-te elec-ción
+ []
+
+) (./src/02_marco_teorico.tex
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[]\T1/cmr/m/n/10.95 Información \T1/cmr/bx/n/10.95 real
  []
 
 
-Overfull \hbox (5.05884pt too wide) in paragraph at lines 25--26
-[]\T1/cmr/bx/n/10.95 Hallazgo crí-ti-co\T1/cmr/m/n/10.95 : Fi-nan-cia-mien-to p
-or AFP
+Underfull \hbox (badness 2277) in paragraph at lines 27--30
+[]\T1/cmr/m/n/10.95 Izquierda cree: 73$ $% de-re-cha quie-re
  []
 
 
-Overfull \hbox (2.86826pt too wide) in paragraph at lines 35--36
-[]\T1/cmr/m/n/10.95 Proponer es-tra-te-gias de de-fen-sa: re-gu-la-ción,
+Underfull \hbox (badness 1748) in paragraph at lines 45--46
+[]\T1/cmr/m/n/10.95 Plataformas res-pon-sa-bles. Mul-tas
  []
 
-)
 File: ../../Logos/01_logo_kovan.jpg Graphic file (type jpg)
 <use ../../Logos/01_logo_kovan.jpg>
-Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 54.
-(pdftex.def)             Requested size: 37.39467pt x 51.58917pt.
- [3
+Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 46.
+(pdftex.def)             Requested size: 38.55092pt x 53.18553pt.
+[3
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{sec1}) has be
 en already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.54 \newpage
-             ] (./src/02_marco_teorico.tex
-Underfull \hbox (badness 7486) in paragraph at lines 14--15
-[]\T1/cmr/m/n/10.95 Contenido fal-
+l.46     \item[Brasil (STF):]
+                              Responsabilidad proactiva])
+(./src/03_metodologia.tex
+Overfull \hbox (11.16545pt too wide) in paragraph at lines 33--45
+ [] 
+ []
+
+) (./src/04_resultados.tex
+File: ../../Logos/01_logo_kovan.jpg Graphic file (type jpg)
+<use ../../Logos/01_logo_kovan.jpg>
+Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 48.
+(pdftex.def)             Requested size: 38.55092pt x 53.18553pt.
+ [4]
+Overfull \hbox (15.20364pt too wide) in paragraph at lines 58--58
+ []|[]\T1/cmr/bx/n/10 Controlador[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-[]\T1/cmr/m/n/10.95 Información
+Overfull \hbox (3.24823pt too wide) in paragraph at lines 58--59
+ []|[]\T1/cmr/bx/n/10 Actividad[]| 
  []
 
 
-Overfull \hbox (6.62773pt too wide) in paragraph at lines 41--42
-[]\T1/cmr/bx/n/10.95 Chivo Ex-pia-to-rio\T1/cmr/m/n/10.95 : Cul-pa-ble fá-cil, 
-sin prue-
+Overfull \hbox (6.85152pt too wide) in paragraph at lines 60--61
+ []|\T1/cmr/m/n/10 Propaganda| 
+ []
+
+
+Overfull \hbox (1.29732pt too wide) in paragraph at lines 62--62
+ []|\T1/cmr/m/n/10 Prudencial| 
+ []
+
+
+Overfull \hbox (1.49171pt too wide) in paragraph at lines 62--63
+ []|\T1/cmr/m/n/10 Influencers| 
+ []
+
+) (./src/05_conclusiones.tex
+File: ../../Logos/01_logo_kovan.jpg Graphic file (type jpg)
+<use ../../Logos/01_logo_kovan.jpg>
+Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 42.
+(pdftex.def)             Requested size: 38.55092pt x 53.18553pt.
+ [5]
+Underfull \hbox (badness 2134) in paragraph at lines 55--56
+[]\T1/cmr/m/n/10.95 Transparencia al-go-rít-mi-ca. Res-
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 57--58
+[]\T1/cmr/m/n/10.95 Media li-te-racy en edu-ca-ción
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 59--60
+[]\T1/cmr/m/n/10.95 Investigación con-ti-nua. De-tec-ción
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 68--69
+[]\T1/cmr/bx/n/10.95 La inac-ción no es op-ción. \T1/cmr/m/n/10.95 Cuan-do 80$ 
+$%
  []
 
 )
 File: ../../Logos/01_logo_kovan.jpg Graphic file (type jpg)
 <use ../../Logos/01_logo_kovan.jpg>
-Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 57.
-(pdftex.def)             Requested size: 37.39467pt x 51.58917pt.
- [4] (./src/03_metodologia.tex
-Overfull \hbox (5.77055pt too wide) in paragraph at lines 12--13
-[]\T1/cmr/m/n/10.95 Análisis de ca-sos de es-tu-dio (Ple-bis-ci-to 2022,
- []
-
-
-Overfull \hbox (3.95103pt too wide) in paragraph at lines 20--21
-[]\T1/cmr/bx/n/10.95 CNN/Plataforma Te-lar\T1/cmr/m/n/10.95 : Des-in-for-ma-ció
-n
- []
-
-
-Overfull \hbox (145.41685pt too wide) in paragraph at lines 30--42
- [] 
- []
-
-
-Overfull \hbox (9.93367pt too wide) in paragraph at lines 53--53
- []|\T1/cmr/m/n/10.95 Independiente| 
- []
-
-
-Overfull \hbox (143.04648pt too wide) in paragraph at lines 47--57
- [] 
- []
-
-File: ../../Logos/01_logo_kovan.jpg Graphic file (type jpg)
-<use ../../Logos/01_logo_kovan.jpg>
-Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 59.
-(pdftex.def)             Requested size: 37.39467pt x 51.58917pt.
-[5]) (./src/04_resultados.tex
-Underfull \hbox (badness 1635) in paragraph at lines 10--11
-\T1/cmr/m/n/10.95 fal-sa en Twit-ter (ple-bis-ci-to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-[]\T1/cmr/m/n/10.95 Financiamiento cor-po-ra-ti-vo
- []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 12--13
-\T1/cmr/m/n/10.95 de ope-ra-cio-nes de des-in-for-
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 19--20
-[]\T1/cmr/m/n/10.95 La des-in-for-ma-ción no es un fe-
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 19--20
-\T1/cmr/bx/n/10.95 fi-nan-cia-da \T1/cmr/m/n/10.95 que al-can-za ma-si-va-
- []
-
-
-Overfull \hbox (0.3493pt too wide) in paragraph at lines 37--38
-[]\T1/cmr/m/n/10.95 Aseveración fal-sa so-bre eli-mi-na-ción
- []
-
-
-Overfull \hbox (9.46713pt too wide) in paragraph at lines 43--44
-[]\T1/cmr/bx/n/10.95 Evelyn Ma-tei\T1/cmr/m/n/10.95 : Fal-sa na-rra-ti-va so-br
-e Alzhei-
- []
-
-
-Overfull \hbox (9.155pt too wide) in paragraph at lines 45--46
-[]\T1/cmr/bx/n/10.95 Gabriel Bo-ric\T1/cmr/m/n/10.95 : Na-rra-ti-va so-bre dro-
-gas (exá-
- []
-
-
-Overfull \hbox (38.67545pt too wide) in paragraph at lines 52--62
- [] 
- []
-
-File: ../../Logos/01_logo_kovan.jpg Graphic file (type jpg)
-<use ../../Logos/01_logo_kovan.jpg>
-Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 68.
-(pdftex.def)             Requested size: 37.39467pt x 51.58917pt.
-[6]
-Overfull \hbox (0.17256pt too wide) in paragraph at lines 69--70
-[]\T1/cmr/m/n/10.95 56$ $% sen-tía ciu-da-da-nía po-co/-na-da in-for-ma-
- []
-
-
-Overfull \hbox (0.69116pt too wide) in paragraph at lines 75--76
-[]\T1/cmr/m/n/10.95 Porcentaje de afir-ma-cio-nes ve-ri-fi-ca-das co-mo fal-
- []
-
-) (./src/05_conclusiones.tex
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-[]\T1/cmr/bx/n/10.95 Amenaza de-mo-crá-ti-ca\T1/cmr/m/n/10.95 :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-\T1/cmr/m/n/10.95 80$ $% la-ti-no-ame-ri-ca-nos la
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 15--16
-\T1/cmr/m/n/10.95 nos re-co-no-ce de-bi-li-ta-mien-to
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 16--17
-[]\T1/cmr/bx/n/10.95 Vacío ins-ti-tu-cio-nal\T1/cmr/m/n/10.95 : Chi-le
- []
-
-File: ../../Logos/01_logo_kovan.jpg Graphic file (type jpg)
-<use ../../Logos/01_logo_kovan.jpg>
-Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 27.
-(pdftex.def)             Requested size: 37.39467pt x 51.58917pt.
-[7]
-Overfull \hbox (1.07529pt too wide) in paragraph at lines 48--49
-[]\T1/cmr/m/n/10.95 Transparencia cor-po-ra-ti-va en fi-nan-cia-mien-
- []
-
-
-Overfull \hbox (2.7409pt too wide) in paragraph at lines 63--64
-[]\T1/cmr/m/n/10.95 Legislación es-pe-cí-fi-ca so-bre des-
- []
-
-
-Overfull \hbox (9.17934pt too wide) in paragraph at lines 63--64
-\T1/cmr/m/n/10.95 in-for-ma-ción (mo-de-lo eu-ro-peo adap-ta-do). Au-
- []
-
-
-Overfull \hbox (7.27309pt too wide) in paragraph at lines 67--68
-[]\T1/cmr/m/n/10.95 Media li-te-racy en edu-ca-ción for-
- []
-
-
-Overfull \hbox (6.8975pt too wide) in paragraph at lines 67--68
-\T1/cmr/m/n/10.95 cio-nal. Va-len-tía de des-acre-di-tar fal-se-dad pro-
- []
-
-
-Overfull \hbox (0.83687pt too wide) in paragraph at lines 74--75
-[]\T1/cmr/m/n/10.95 La des-in-for-ma-ción es pro-ble-ma \T1/cmr/bx/n/10.95 tec-
-no-ló-gi-co en
- []
-
-
-Overfull \hbox (12.23965pt too wide) in paragraph at lines 78--79
-\T1/cmr/m/n/10.95 na-cio-na-les ma-ni-pu-lan elec-to-ra-les, cuan-do bots coor-
-
- []
-
-File: ../../Logos/01_logo_kovan.jpg Graphic file (type jpg)
-<use ../../Logos/01_logo_kovan.jpg>
-Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 79.
-(pdftex.def)             Requested size: 37.39467pt x 51.58917pt.
-[8])
-Overfull \hbox (2.29668pt too wide) in paragraph at lines 80--66
-[]\T1/cmr/bx/n/10.95 La pre-gun-ta no es si re-gu-la-mos, sino cuán-
- []
-
+Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 61.
+(pdftex.def)             Requested size: 38.55092pt x 53.18553pt.
+ [6]
 File: ../../Logos/01_logo_kovan.jpg Graphic file (type jpg)
 <use ../../Logos/01_logo_kovan.jpg>
 Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 96.
-(pdftex.def)             Requested size: 37.39467pt x 51.58917pt.
-[9]
-File: ../../Logos/01_logo_kovan.jpg Graphic file (type jpg)
-<use ../../Logos/01_logo_kovan.jpg>
-Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 101.
-
-(pdftex.def)             Requested size: 37.39467pt x 51.58917pt.
- [10
-
-] (output/main.aux
+(pdftex.def)             Requested size: 38.55092pt x 53.18553pt.
+ [7] (./main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1251,31 +1132,33 @@ L3 programming layer <2024-02-20>
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.28pt have occurred.
+(Font)              up to 0.74pt have occurred.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EFBF0E0013A28668906AFB85FC78DFB3;5015.
+(rerunfilecheck)             Checksum: 7AC77F15CCECD2D83913E4BC87FA045C;4063.
  ) 
 Here is how much of TeX's memory you used:
- 30127 strings out of 474116
- 588286 string characters out of 5743681
- 1944187 words of memory out of 5000000
- 51943 multiletter control sequences out of 15000+600000
- 572504 words of font info for 68 fonts, out of 8000000 for 9000
+ 30136 strings out of 474116
+ 588360 string characters out of 5743681
+ 1952187 words of memory out of 5000000
+ 51952 multiletter control sequences out of 15000+600000
+ 575742 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,14n,90p,464b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb>
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></us
-r/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/loca
-l/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1728.pfb>
-Output written on output/main.pdf (10 pages, 281308 bytes).
+ 88i,14n,90p,464b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/
+local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/lo
+cal/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/loca
+l/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on main.pdf (7 pages, 311191 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 251 compressed objects within 3 object streams
- 77 named destinations out of 1000 (max. 500000)
+ 281 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
+ 74 named destinations out of 1000 (max. 500000)
  263 words of extra memory for PDF output out of 10000 (max. 10000000)
 

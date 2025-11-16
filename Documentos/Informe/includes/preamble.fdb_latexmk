@@ -1,8 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1763280194.73812 "/Users/estebanroman/Documents/GitHub/Etica_en_el_AnalisisPolitico/Documentos/Informe/includes/preamble.tex" "preamble.pdf" "preamble" 1763280195.39021 2
-  "/Users/estebanroman/Documents/GitHub/Etica_en_el_AnalisisPolitico/Documentos/Informe/includes/preamble.tex" 1763280193.68568 4038 259c24303accf1bf310c90d2e0013217 ""
+["pdflatex"] 1763281716.97644 "/Users/estebanroman/Documents/GitHub/Etica_en_el_AnalisisPolitico/Documentos/Informe/includes/preamble.tex" "preamble.pdf" "preamble" 1763281717.61542 2
+  "/Users/estebanroman/Documents/GitHub/Etica_en_el_AnalisisPolitico/Documentos/Informe/includes/preamble.tex" 1763281146.99735 3316 9b0cb6bca89f0f402a62fcbd7bebb6bf ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf" 1622145181 26965 3b6d1655ad716f98e788b1fb9f2e87b8 ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty" 1707339808 146276 10a40dabec03ce18494af0c3a51bcbdc ""
@@ -86,7 +87,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1705352648 3045 273c666a54e60b9f730964f431a56c1b ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1705352648 2462 6bc53756156dbd71c1ad550d30a3b93f ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty" 1705352648 5119 a04a8b68ab4f6ce800a41f7f8012a10e ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo" 1705352648 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/base/size11.clo" 1705352648 8464 59874a3b0776c73e2a138b025d8473dd ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty" 1579038678 6078 f1cb470c9199e7110a27851508ed7a5c ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/cite/cite.sty" 1425427964 26218 19edeff8cdc2bcb704e8051dc55eb5a7 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty" 1708463147 12355 ec728d2e4c37cf8919ee2eff9b75ad0c ""
@@ -150,7 +151,7 @@
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731998919 8221433 4a0179852475ed2d93a676cd69957d8f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "preamble.aux" 0 -1 0 "pdflatex"
-  "preamble.tex" 1763280193.68568 4038 259c24303accf1bf310c90d2e0013217 ""
+  "preamble.tex" 1763281146.99735 3316 9b0cb6bca89f0f402a62fcbd7bebb6bf ""
   (generated)
   "preamble.aux"
   "preamble.log"

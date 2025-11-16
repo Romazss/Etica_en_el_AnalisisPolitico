@@ -10,54 +10,51 @@
 \begin{document}
 
 % ============================================================
-% PORTADA
+% PORTADA (UNA COLUMNA)
 % ============================================================
+\onecolumn
 \maketitle
 
 % ============================================================
-% TABLA DE CONTENIDOS
+% TABLA DE CONTENIDOS (UNA COLUMNA)
 % ============================================================
 \newpage
-\vspace*{1cm}
+\vspace*{0.5cm}
 \begin{center}
-{\LARGE \textbf{Contenido del Informe}}
+{\Large \textbf{Contenido del Informe}}
 \end{center}
 
-\vspace{1cm}
-\noindent\makebox[\linewidth]{\rule{0.35\linewidth}{1.5pt}\hspace{0.05\linewidth}\raisebox{-3pt}{\Large \textbf{\textdagger}}\hspace{0.05\linewidth}\rule{0.35\linewidth}{1.5pt}}
-\vspace{1cm}
+\vspace{0.8cm}
+\noindent\makebox[\linewidth]{\rule{0.35\linewidth}{1.2pt}\hspace{0.05\linewidth}\raisebox{-2pt}{\large \textbf{†}}\hspace{0.05\linewidth}\rule{0.35\linewidth}{1.2pt}}
+\vspace{0.8cm}
 
 \begin{itemize}
+    \itemsep=0.25cm
     \item[\textbf{1.}] \hyperlink{sec1}{\textbf{Introducción}} \dotfill Contexto, objetivos y relevancia
-    \vspace{0.3cm}
     \item[\textbf{2.}] \hyperlink{sec2}{\textbf{Marco Teórico}} \dotfill Conceptos, polarización y regulaciones
-    \vspace{0.3cm}
     \item[\textbf{3.}] \hyperlink{sec3}{\textbf{Metodología}} \dotfill Enfoque, fuentes y estadísticas
-    \vspace{0.3cm}
     \item[\textbf{4.}] \hyperlink{sec4}{\textbf{Resultados}} \dotfill Hallazgos principales y análisis
-    \vspace{0.3cm}
     \item[\textbf{5.}] \hyperlink{sec5}{\textbf{Conclusiones}} \dotfill Síntesis, estrategias y reflexión final
 \end{itemize}
 
-\vspace{1cm}
-\noindent\makebox[\linewidth]{\rule{0.35\linewidth}{1.5pt}\hspace{0.05\linewidth}\raisebox{-3pt}{\Large \textbf{\textdagger}}\hspace{0.05\linewidth}\rule{0.35\linewidth}{1.5pt}}
+\vspace{0.8cm}
+\noindent\makebox[\linewidth]{\rule{0.35\linewidth}{1.2pt}\hspace{0.05\linewidth}\raisebox{-2pt}{\large \textbf{†}}\hspace{0.05\linewidth}\rule{0.35\linewidth}{1.2pt}}
 
 \newpage
+\twocolumn
 
 % ============================================================
 % CONTENIDO PRINCIPAL
 % ============================================================
 \hypertarget{sec1}{}
 \input{src/01_introduccion}
-\newpage
 
 \input{src/02_marco_teorico}
-\newpage
 
 \input{src/03_metodologia}
-\newpage
 
 \input{src/04_resultados}
+\newpage
 \newpage
 
 \input{src/05_conclusiones}
