@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.3)  16 NOV 2025 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.3)  17 NOV 2025 00:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -267,15 +267,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: landscape 
-* h-part:(L,W,R)=(56.9055pt, 3269.22166pt, 56.9055pt)
-* v-part:(T,H,B)=(51.21504pt, 2290.44669pt, 51.21504pt)
+* h-part:(L,W,R)=(42.67912pt, 3297.67442pt, 42.67912pt)
+* v-part:(T,H,B)=(34.14322pt, 2324.59033pt, 34.14322pt)
 * \paperwidth=3383.03267pt
 * \paperheight=2392.87677pt
-* \textwidth=3269.22166pt
-* \textheight=2290.44669pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-21.05495pt
+* \textwidth=3297.67442pt
+* \textheight=2324.59033pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-38.12677pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=10.0pt
@@ -297,47 +297,42 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 File: ../../Logos/logo-uc-02.pdf Graphic file (type pdf)
 <use ../../Logos/logo-uc-02.pdf>
 Package pdftex.def Info: ../../Logos/logo-uc-02.pdf  used on input line 33.
-(pdftex.def)             Requested size: 372.6749pt x 215.00621pt.
+(pdftex.def)             Requested size: 469.89796pt x 271.09654pt.
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <110> not available
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <120> not available
 (Font)              size <107.0> substituted on input line 41.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <110> not available
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <120> not available
 (Font)              size <107.0> substituted on input line 41.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <56> not available
-(Font)              size <51.6> substituted on input line 46.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <58> not available
+(Font)              size <61.92> substituted on input line 46.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <56> not available
-(Font)              size <51.6> substituted on input line 46.
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <58> not available
+(Font)              size <61.92> substituted on input line 46.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <28> not available
-(Font)              size <29.86> substituted on input line 51.
-
-<../../Logos/01_logo_kovan.jpg, id=2, 266.9975pt x 368.37625pt>
-File: ../../Logos/01_logo_kovan.jpg Graphic file (type jpg)
-<use ../../Logos/01_logo_kovan.jpg>
-Package pdftex.def Info: ../../Logos/01_logo_kovan.jpg  used on input line 58.
-(pdftex.def)             Requested size: 248.46573pt x 342.82243pt.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <38> not available
-(Font)              size <35.83> substituted on input line 89.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <26> not available
+(Font)              size <24.88> substituted on input line 51.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <38> not available
-(Font)              size <35.83> substituted on input line 89.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <40> not available
+(Font)              size <43.00> substituted on input line 84.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <40> not available
+(Font)              size <43.00> substituted on input line 84.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 94.
+(Font)              size <20.74> substituted on input line 89.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 97.
+(Font)              size <20.74> substituted on input line 92.
 
 
 ! LaTeX Error: Unicode character ▸ (U+25B8)
@@ -347,7 +342,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97     \item[\textcolor{ucred}{\textbf{▸}}]
+l.92     \item[\textcolor{ucred}{\textbf{▸}}]
                                                 \textbf{Limitación del diá...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -360,7 +355,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98     \item[\textcolor{ucred}{\textbf{▸}}]
+l.93     \item[\textcolor{ucred}{\textbf{▸}}]
                                                 \textbf{Facilitación de des...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -373,25 +368,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99     \item[\textcolor{ucred}{\textbf{▸}}]
+l.94     \item[\textcolor{ucred}{\textbf{▸}}]
                                                 \textbf{Reproducción de ses...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 108.
+(Font)              size <17.28> substituted on input line 103.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 115.
+(Font)              size <17.28> substituted on input line 110.
 
 
 LaTeX Font Warning: Font shape `TS1/cmr/bx/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 115.
+(Font)              size <17.28> substituted on input line 110.
 
 ! Extra }, or forgotten \endgroup.
-l.121 ...{darktext}{Ecosistema Digital Chileno}}}}
+l.116 ...{darktext}{Ecosistema Digital Chileno}}}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -401,88 +396,88 @@ deleted material, e.g., by typing `I$}'.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 122.
+(Font)              size <17.28> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 125.
+(Font)              size <17.28> substituted on input line 120.
 
-LaTeX Font Info:    Calculating math sizes for size <19> on input line 125.
+LaTeX Font Info:    Calculating math sizes for size <19> on input line 120.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13.29994> not available
-(Font)              size <14.4> substituted on input line 125.
+(Font)              size <14.4> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <9.5> not available
-(Font)              size <9> substituted on input line 125.
+(Font)              size <9> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <19> not available
-(Font)              size <17.28> substituted on input line 125.
+(Font)              size <17.28> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.29994> not available
-(Font)              size <14.4> substituted on input line 125.
+(Font)              size <14.4> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <9.5> not available
-(Font)              size <9> substituted on input line 125.
+(Font)              size <9> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 125.
+(Font)              size <17.28> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.29994> not available
-(Font)              size <14.4> substituted on input line 125.
+(Font)              size <14.4> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <9.5> not available
-(Font)              size <9> substituted on input line 125.
+(Font)              size <9> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 125.
+(Font)              size <17.28> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.29994> not available
-(Font)              size <14.4> substituted on input line 125.
+(Font)              size <14.4> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <9.5> not available
-(Font)              size <9> substituted on input line 125.
+(Font)              size <9> substituted on input line 120.
 
-LaTeX Font Info:    Calculating math sizes for size <18> on input line 155.
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 150.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <12.59995> not available
-(Font)              size <12> substituted on input line 155.
+(Font)              size <12> substituted on input line 150.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <18> not available
-(Font)              size <17.28> substituted on input line 155.
+(Font)              size <17.28> substituted on input line 150.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <12.59995> not available
-(Font)              size <12> substituted on input line 155.
+(Font)              size <12> substituted on input line 150.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 155.
+(Font)              size <17.28> substituted on input line 150.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <12.59995> not available
-(Font)              size <12> substituted on input line 155.
+(Font)              size <12> substituted on input line 150.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 155.
+(Font)              size <17.28> substituted on input line 150.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <12.59995> not available
-(Font)              size <12> substituted on input line 155.
+(Font)              size <12> substituted on input line 150.
 
 ! Extra }, or forgotten \endgroup.
-l.179 ...color{darktext}{Percepción Ciudadana}}}}
+l.174 ...color{darktext}{Percepción Ciudadana}}}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -491,7 +486,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten \endgroup.
-l.192 ...App: Arena Cerrada (Plataforma Telar)}}}}
+l.187 ...App: Arena Cerrada (Plataforma Telar)}}}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -507,7 +502,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.208 \textbf{\textcolor{ucred}{■}}
+l.203 \textbf{\textcolor{ucred}{■}}
                                       \textbf{Asimetría}: Usuarios ignoran ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -520,7 +515,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210 \textbf{\textcolor{ucred}{■}}
+l.205 \textbf{\textcolor{ucred}{■}}
                                       \textbf{Poder Concentrado}: Meta, X, T...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -533,7 +528,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.212 \textbf{\textcolor{ucred}{■}}
+l.207 \textbf{\textcolor{ucred}{■}}
                                       \textbf{Opacidad Total}: Caja negra, s...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -546,64 +541,64 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 \textbf{\textcolor{ucred}{■}}
+l.209 \textbf{\textcolor{ucred}{■}}
                                       \textbf{Financiamiento Oculto}: AFP bu...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
 LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 214.
+(Font)              size <17.28> substituted on input line 209.
 
-LaTeX Font Info:    Calculating math sizes for size <17> on input line 240.
+LaTeX Font Info:    Calculating math sizes for size <17> on input line 235.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 240.
+(Font)              size <8> substituted on input line 235.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <8.5> not available
-(Font)              size <8> substituted on input line 240.
+(Font)              size <8> substituted on input line 235.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 240.
+(Font)              size <8> substituted on input line 235.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 240.
+(Font)              size <8> substituted on input line 235.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 250.
+(Font)              size <17.28> substituted on input line 245.
 
-LaTeX Font Info:    Calculating math sizes for size <16> on input line 251.
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 246.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 251.
+(Font)              size <17.28> substituted on input line 246.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 251.
+(Font)              size <17.28> substituted on input line 246.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 251.
+(Font)              size <17.28> substituted on input line 246.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 253.
+(Font)              size <17.28> substituted on input line 248.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 285.
+(Font)              size <20.74> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 285.
+(Font)              size <20.74> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <18> not available
-(Font)              size <17.28> substituted on input line 289.
+(Font)              size <17.28> substituted on input line 284.
 
 
 
@@ -614,7 +609,7 @@ Non-PDF special ignored!
 <special> header=./a0header.ps
 Non-PDF special ignored!
 <special> papersize=120cm,91.51cm
-{c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../../Logos/logo-uc-02.pdf> <../../Logos/01_logo_kovan.jpg>] (./poster.aux
+{c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../../Logos/logo-uc-02.pdf>] (./poster.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -625,22 +620,22 @@ L3 programming layer <2025-01-18>
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 4.4pt have occurred.
+(Font)              up to 13.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 4041 strings out of 475170
- 70150 string characters out of 5763938
- 510165 words of memory out of 5000000
- 27018 multiletter control sequences out of 15000+600000
- 572309 words of font info for 82 fonts, out of 8000000 for 9000
+ 4036 strings out of 475170
+ 69936 string characters out of 5763938
+ 509169 words of memory out of 5000000
+ 27013 multiletter control sequences out of 15000+600000
+ 572608 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,7n,65p,283b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1728.600pk> <c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1728.600pk><c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on poster.pdf (1 page, 148727 bytes).
+Output written on poster.pdf (1 page, 119161 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
