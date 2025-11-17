@@ -1,20 +1,17 @@
-\documentclass[a0paper,portrait]{a0poster}
+\documentclass[a0paper,landscape]{a0poster}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{graphicx}
 \usepackage{xcolor}
-\usepackage{tikz}
 \usepackage{multicol}
 \usepackage{array}
 \usepackage{geometry}
 \usepackage{booktabs}
-\usepackage{tcolorbox}
-\tcbuselibrary{skins}
 
-% Configurar márgenes optimizados para A0
-\geometry{margin=2.5cm, top=2cm, bottom=2cm}
+% Configurar márgenes optimizados para A0 landscape
+\geometry{margin=2cm, top=1.8cm, bottom=1.8cm}
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.1cm}
+\setlength{\parskip}{0.08cm}
 
 % Paleta de colores UC (Pontificia Universidad Católica)
 \definecolor{ucred}{RGB}{200, 16, 46}          % Rojo UC oficial
@@ -22,20 +19,6 @@
 \definecolor{uclight}{RGB}{244, 245, 247}      % Gris claro UC
 \definecolor{ucgreen}{RGB}{34, 139, 34}        % Verde para soluciones
 \definecolor{darktext}{RGB}{33, 37, 41}        % Texto oscuro UC
-\definecolor{lightbg}{RGB}{248, 248, 250}      % Fondo muy claro
-
-% Caja de énfasis
-\newtcolorbox{keybox}{
-    colback=uclight,
-    colframe=ucred,
-    arc=2mm,
-    left=6mm,
-    right=6mm,
-    top=5mm,
-    bottom=5mm,
-    boxsep=0pt,
-    borderline west={4pt}{0pt}{ucred}
-}
 
 \begin{document}
 
@@ -45,38 +28,32 @@
 \begin{center}
 
 % Logos en minipage
-\begin{minipage}[t]{0.12\textwidth}
+\begin{minipage}[t]{0.08\textwidth}
 \centering
 \includegraphics[width=0.95\textwidth]{../../Logos/logo-uc-02.pdf}
 \end{minipage}%
 \hfill
-\begin{minipage}[t]{0.76\textwidth}
+\begin{minipage}[t]{0.84\textwidth}
 \centering
-\vspace{0.3cm}
+\vspace{0.2cm}
 
 % TÍTULO PRINCIPAL - MÁS GRANDE
-{\fontsize{110}{132}\selectfont \textcolor{ucred}{\textbf{ALGORITMOS Y POLARIZACIÓN}}}
-
-{\fontsize{110}{132}\selectfont \textcolor{ucred}{\textbf{POLÍTICA}}}
-
-\vspace{0.5cm}
-
-% Subtítulo
-{\fontsize{56}{67}\selectfont \textcolor{ucblue}{\textbf{La Erosión de la Democracia Chilena}}}
-
-{\fontsize{48}{58}\selectfont \textcolor{ucblue}{2021-2025}}
+{\fontsize{100}{120}\selectfont \textcolor{ucred}{\textbf{ALGORITMOS Y POLARIZACIÓN POLÍTICA}}}
 
 \vspace{0.3cm}
 
-% Información institucional
-{\fontsize{28}{34}\selectfont \textcolor{darktext}{Proyecto Final — Ética de la IA}}
-
-{\fontsize{28}{34}\selectfont \textcolor{darktext}{Pontificia Universidad Católica}}
+% Subtítulo
+{\fontsize{48}{58}\selectfont \textcolor{ucblue}{\textbf{La Erosión de la Democracia Chilena 2021-2025}}}
 
 \vspace{0.2cm}
+
+% Información institucional
+{\fontsize{24}{29}\selectfont \textcolor{darktext}{Proyecto Final — Ética de la IA — Pontificia Universidad Católica}}
+
+\vspace{0.15cm}
 \end{minipage}%
 \hfill
-\begin{minipage}[t]{0.10\textwidth}
+\begin{minipage}[t]{0.08\textwidth}
 \centering
 \includegraphics[width=0.95\textwidth]{../../Logos/logo_uc_f.png}
 \end{minipage}
@@ -91,13 +68,13 @@
 \end{center}
 
 % ============================================================
-% CONTENIDO EN 2 COLUMNAS CON MEJOR ESTRUCTURA
+% CONTENIDO EN 3 COLUMNAS CON MEJOR ESTRUCTURA
 % ============================================================
-\setlength{\columnsep}{1.2cm}
+\setlength{\columnsep}{0.8cm}
 \setlength{\columnseprule}{1pt}
 \def\columnseprulecolor{\color{ucred}}
 
-\begin{multicols}{2}
+\begin{multicols}{3}
 
 % ============================================================
 % COLUMNA 1
@@ -105,9 +82,11 @@
 
 \section*{\textcolor{ucred}{\Large POSTURA CENTRAL}}
 
-\begin{keybox}
-{\fontsize{22}{27}\selectfont \textbf{\textcolor{darktext}{Los algoritmos de redes sociales fomentan activamente la polarización política, erosionando la calidad democrática en Chile.}}}
-\end{keybox}
+\fcolorbox{ucred}{uclight}{%
+\begin{minipage}[c]{0.96\linewidth}
+{\fontsize{32}{39}\selectfont \textbf{\textcolor{darktext}{Los algoritmos de redes sociales fomentan activamente la polarización política, erosionando la calidad democrática en Chile.}}}
+\end{minipage}%
+}
 
 \vspace{0.3cm}
 
