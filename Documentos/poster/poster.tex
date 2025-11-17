@@ -1,0 +1,238 @@
+\documentclass[a0paper,portrait]{a0poster}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{lipsum}
+\usepackage{geometry}
+
+% Configurar márgenes
+\geometry{margin=2cm}
+
+% Paleta de colores
+\definecolor{redaccent}{RGB}{231, 76, 60}      % Rojo para polarización
+\definecolor{blueaccent}{RGB}{52, 152, 219}    % Azul para algoritmos
+\definecolor{greenaccent}{RGB}{46, 204, 113}   % Verde para soluciones
+\definecolor{darkgray}{RGB}{44, 62, 80}        % Gris oscuro
+\definecolor{lightgray}{RGB}{236, 240, 241}    % Gris claro
+
+\begin{document}
+
+% Encabezado principal
+\begin{center}
+{\fontsize{80}{96}\selectfont \textcolor{redaccent}{\textbf{ALGORITMOS Y POLARIZACION POLITICA}}}
+
+{\fontsize{50}{60}\selectfont \textcolor{darkgray}{Erosion de la Democracia Chilena (2021-2025)}}
+
+\vspace{0.5cm}
+{\fontsize{24}{28}\selectfont Proyecto Final - Etica de la IA | Pontificia Universidad Catolica}
+\end{center}
+
+\vspace{0.5cm}
+\noindent\rule{\textwidth}{3pt}
+
+% Contenido principal en 3 columnas
+\begin{multicols}{3}
+
+% COLUMNA 1: POSTURA ÉTICA Y CONTEXTO
+\section*{\textcolor{redaccent}{POSTURA ETICA CENTRAL}}
+{\fontsize{18}{22}\selectfont \textbf{\textcolor{darkgray}{Los algoritmos de redes sociales fomentan activamente la polarizacion politica, erosionando la calidad democratica en Chile.}}}
+
+\vspace{0.3cm}
+
+\subsection*{\textcolor{blueaccent}{Tres consecuencias negativas:}}
+\begin{itemize}
+    \item[\textbf{\textcolor{redaccent}{X}}] \textbf{Limitacion del dialogo democratico}: ``Burbujas de filtro'' impiden exposicion a posturas diversas
+    \item[\textbf{\textcolor{redaccent}{X}}] \textbf{Facilitacion de desinformacion}: Algoritmos priorizan engagement sobre veracidad
+    \item[\textbf{\textcolor{redaccent}{X}}] \textbf{Reproduccion de sesgos}: Sistemas de IA aprenden y refuerzan prejuicios
+\end{itemize}
+
+\vspace{0.5cm}
+
+\section*{\textcolor{blueaccent}{ANALISIS SOCIOTECNICO}}
+
+\subsection*{\textbf{Mecanismos de Recomendación:}}
+\begin{enumerate}
+    \item Extracción de datos del perfil de usuario
+    \item Aprendizaje automático con patrones de comportamiento
+    \item Predicción de engagement (tiempo, interacciones, comparticiones)
+    \item Personalización de feed según preferencias inferidas
+    \item \textbf{\textcolor{redaccent}{Resultado: Burbuja de Filtro}}
+\end{enumerate}
+
+\subsection*{\textbf{Datos Clave del Ecosistema Digital Chileno:}}
+\begin{itemize}
+    \item 17,85 millones de usuarios en redes sociales
+    \item 92\% de la población conectada
+    \item 20,000 bots detectados en elección 2021
+    \item 72,9\% vio desinformación en Twitter (2022)
+\end{itemize}
+
+% COLUMNA 2: CASOS CHILENOS Y DESINFORMACIÓN
+\section*{\textcolor{darkgray}{CASOS CHILENOS (2021-2025)}}
+
+\subsection*{\textbf{\textcolor{redaccent}{Eleccion Presidencial 2021}}}
+\textbf{Protagonistas:} Boric vs. Kast | \textbf{Plataforma clave:} TikTok \\
+\textbf{Impacto:} Segmentación generacional extrema, 20,000 bots operando
+
+\subsection*{\textbf{\textcolor{redaccent}{Plebiscitos 2022-2023}}}
+\textbf{Campaña sistematica}: 5 meses (3 fuera del período legal) \\
+\textbf{Estrategia}: Apelar al miedo, no al debate \\
+\textbf{Temas manipulados}: Pensiones (``Con mi plata''), vivienda, salud, educacion
+
+\vspace{0.3cm}
+\textbf{\textcolor{blueaccent}{Punto de inflexion}}: 1 de abril 2022 \\
+Titular falso de Bernardo Fontaine: ``Los trabajadores ya no seran dueños de sus ahorros previsionales'' \\
+\textit{Coincidio exactamente con cuando encuesta CADEM mostro rechazo superando apruebo}
+
+\subsection*{\textbf{\textcolor{redaccent}{Campañas 2024-2025}}}
+\textbf{Red de bots contra candidatas}: Evelyn Matei (Alzheimer falso) y Janet Jara (videos adulterados) \\
+\textbf{Origenes}: Asociacion de AFP financiando operaciones clandestinas \\
+\textbf{Herramienta}: ``Cuentas madre'' del Partido Republicano (76\% ataques a mujeres)
+
+\vspace{0.5cm}
+
+\section*{\textcolor{darkgray}{DESINFORMACION DOCUMENTADA}}
+
+\subsection*{\textbf{Desde plataformas académicas:}}
+\begin{itemize}
+    \item \textbf{72,9\%} de encuestados vio fake news en Twitter (plebiscito 2022)
+    \item \textbf{49\%} de latinoamericanos se topa con noticias falsas \textbf{diariamente}
+    \item \textbf{74,4\%} de chilenos apoya sancionar difusión de fake news
+    \item \textbf{75,7\%} considera desinformación amenaza a democracia
+\end{itemize}
+
+\subsection*{\textbf{WhatsApp: nueva arena de desinformación}}
+\begin{itemize}
+    \item 25\% de mensajes en grupos políticos públicos contienen desinformación
+    \item 100\% de desinformación sobre plebiscito era pro-rechazo
+    \item Plataforma cerrada dificulta regulación y fact-checking
+\end{itemize}
+
+% COLUMNA 3: ACTORES, ANÁLISIS ÉTICO Y PROPUESTAS
+\section*{\textcolor{darkgray}{ACTORES CLAVE Y DINAMICAS DE PODER}}
+
+\textbf{Asimetría de información:} Usuarios desconocen cómo algoritmos operan \\
+\textbf{Concentración de poder:} Meta, X, TikTok dominan infraestructura política \\
+\textbf{Falta de transparencia:} ``Caja negra'' algorítmica sin auditoría independiente \\
+\textbf{Mercantilización:} Atención política como producto vendible
+
+\vspace{0.3cm}
+\textbf{Grupos económicos transnacionales:} AFP (Generali, MetLife, Prudential, Principal) financiando campañas encubiertas
+
+\vspace{0.5cm}
+
+\section*{\textcolor{greenaccent}{ANALISIS ETICO Y RIESGOS}}
+
+\subsection*{\textbf{Riesgos Identificados:}}
+\begin{itemize}
+    \item \textcolor{redaccent}{\textbf{Erosion democratica}}: Imposibilidad de consenso en hechos
+    \item \textcolor{redaccent}{\textbf{Manipulacion selectiva}}: Micro-targeting a grupos vulnerables
+    \item \textcolor{redaccent}{\textbf{Polarizacion subjetiva}}: Izquierda cree 73\% derecha vs aborto; realidad: 40\%
+    \item \textcolor{redaccent}{\textbf{Radicalizacion}}: Exposicion gradual a contenido extremista
+\end{itemize}
+
+\subsection*{\textbf{Vínculo con Polarización Subjetiva:}}
+``El problema no es lo que creemos, sino lo mal que entendemos lo que creen los demás'' --- Tercer Estudio Nacional de Polarizaciones
+
+\vspace{0.5cm}
+
+\section*{\textcolor{greenaccent}{PROPUESTAS ETICAS VIABLES}}
+
+\begin{enumerate}
+    \item \textbf{Regulación de transparencia algorítmica}
+        \begin{itemize}
+            \item Auditorías independientes de sistemas de recomendación
+            \item Derecho del usuario a entender por qué ve contenido
+            \item Modelo europeo (DSA): multas hasta 10\% facturación global
+        \end{itemize}
+    
+    \item \textbf{Alfabetización digital crítica}
+        \begin{itemize}
+            \item ``Vacuna cognitiva'': juegos (Bad News, Harmony Square)
+            \item Mensajes de precisión: preguntar si titular es preciso antes de compartir
+            \item Educación sobre tácticas de manipulación psicológica
+        \end{itemize}
+    
+    \item \textbf{Diseño ético de algoritmos}
+        \begin{itemize}
+            \item Priorizar veracidad sobre engagement
+            \item Auditorías de sesgo pre-lanzamiento
+            \item Diversidad en equipos de diseño
+        \end{itemize}
+    
+    \item \textbf{Regulación de campañas políticas}
+        \begin{itemize}
+            \item Registro público de publicidad política
+            \item Límites a micro-targeting electoral
+            \item Trazabilidad de financiamiento clandestino
+        \end{itemize}
+\end{enumerate}
+
+\vspace{0.5cm}
+
+\section*{\textcolor{darkgray}{📚 INTEGRACIÓN DE CONCEPTOS DEL CURSO}}
+
+\begin{tabular}{|p{3cm}|p{8cm}|}
+\hline
+\textbf{\textcolor{blueaccent}{Unidad}} & \textbf{\textcolor{blueaccent}{Concepto Integrado}} \\
+\hline
+U1: Fundamentos IA & Aprendizaje automatico, sesgos en datos de entrenamiento \\
+\hline
+U2: Dimension Sociotecnica & Actores, poder, regulacion en contexto politico chileno \\
+\hline
+U3: Privacidad y Datos & Extraccion masiva de datos politicos sin consentimiento \\
+\hline
+U4: Explicabilidad & ``Caja negra'' algoritmos, falta de claridad sobre personalizacion \\
+\hline
+U5: Responsabilidad & Vacio regulatorio en Chile, marcos internacionales (UE, Brasil) \\
+\hline
+\end{tabular}
+
+\vspace{0.5cm}
+
+\section*{\textcolor{darkgray}{REFERENCIAS ACADEMICAS EXTERNAS}}
+
+\begin{itemize}
+    \item \textbf{Sunstein, C. R. (2009).} \textit{Republic.com 2.0}. Princeton University Press. (Burbujas de filtro)
+    \item \textbf{Pariser, E. (2011).} \textit{The Filter Bubble}. Penguin Press. (Impacto en democracia)
+    \item \textbf{Lazer et al. (2018).} ``The Science of Fake News.'' \textit{Science}, 359(6380). (Rol de algoritmos en desinformación)
+    \item \textbf{CIPER (2022).} Análisis de campaña 5 meses pre-plebiscito (Documentación chilena)
+    \item \textbf{Plataforma Telar.} Análisis fact-checking proceso constituyente (plataformatelar.cl)
+\end{itemize}
+
+\vspace{0.5cm}
+
+\section*{\textcolor{darkgray}{CONCLUSION}}
+
+\textbf{\textcolor{redaccent}{La responsabilidad etica es colectiva:}}
+
+\begin{itemize}
+    \item \textbf{Reguladores:} Establecer marcos de transparencia y rendición de cuentas
+    \item \textbf{Investigadores:} Auditar impacto real de algoritmos en democracia
+    \item \textbf{Educadores:} Formar ciudadanía digitalmente crítica
+    \item \textbf{Ciudadanía:} Exigir cambios y usar plataformas conscientemente
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textit{\textbf{\textcolor{redaccent}{``¿Queremos que máquinas decidan qué hechos ve la ciudadanía?''}}}
+
+\textbf{\textcolor{greenaccent}{La pregunta fundamental que define nuestra democracia futura}}
+
+\end{multicols}
+
+\vspace{1cm}
+\noindent\rule{\textwidth}{2pt}
+
+% Pie de página
+\begin{center}
+{\fontsize{16}{20}\selectfont \textbf{Basado en: Transcripciones de NotebookLM, Plataforma Telar, CIPER, Análisis Académicos (2021-2025)}}
+
+{\fontsize{14}{18}\selectfont Proyecto Final - Ética en el Análisis Político en Redes Sociales | Noviembre 2025}
+\end{center}
+
+\end{document}
