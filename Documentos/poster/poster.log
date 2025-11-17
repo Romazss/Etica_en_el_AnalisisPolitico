@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.3)  16 NOV 2025 21:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.3)  16 NOV 2025 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,31 +399,29 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen270
 \Gm@layoutvoffset=\dimen271
 \Gm@dimlist=\toks34
-) (./poster.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported  on input line 8.
 )
+No file poster.aux.
 \openout1 = `poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
- (c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported  on input line 25.
+(c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
@@ -437,15 +435,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 2279.06577pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 3269.22166pt, 56.9055pt)
+* h-part:(L,W,R)=(85.35826pt, 2222.16025pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 3240.7689pt, 71.13188pt)
 * \paperwidth=2392.87677pt
 * \paperheight=3383.03267pt
-* \textwidth=2279.06577pt
-* \textheight=3269.22166pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-15.36449pt
+* \textwidth=2222.16025pt
+* \textheight=3240.7689pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-1.1381pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=10.0pt
@@ -463,105 +461,147 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<../../Logos/logo-uc-02.pdf, id=4, 117.43875pt x 67.75313pt>
+File: ../../Logos/logo-uc-02.pdf Graphic file (type pdf)
+<use ../../Logos/logo-uc-02.pdf>
+Package pdftex.def Info: ../../Logos/logo-uc-02.pdf  used on input line 32.
+(pdftex.def)             Requested size: 359.97285pt x 207.67741pt.
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <80> not available
-(Font)              size <74.3> substituted on input line 26.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <80> not available
-(Font)              size <74.3> substituted on input line 26.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <50> not available
-(Font)              size <51.6> substituted on input line 28.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <68> not available
+(Font)              size <61.92> substituted on input line 37.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 31.
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <68> not available
+(Font)              size <61.92> substituted on input line 37.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <38> not available
+(Font)              size <35.83> substituted on input line 45.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 42.
+(Font)              size <17.28> substituted on input line 51.
 
+<../../Logos/logo_uc_f.png, id=5, 1600.47937pt x 413.29407pt>
+File: ../../Logos/logo_uc_f.png Graphic file (type png)
+<use ../../Logos/logo_uc_f.png>
+Package pdftex.def Info: ../../Logos/logo_uc_f.png  used on input line 58.
+(pdftex.def)             Requested size: 283.31593pt x 73.15997pt.
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 42.
+(Font)              size <17.28> substituted on input line 79.
 
 
-! LaTeX Error: Unicode character ðŸ“š (U+1F4DA)
-               not set up for use with LaTeX.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 104.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.177 ...Ÿ“š INTEGRACIÃ“N DE CONCEPTOS DEL CURSO}}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 108.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.49995> not available
+(Font)              size <10.95> substituted on input line 108.
 
 
-Overfull \hbox (4.18385pt too wide) in paragraph at lines 181--181
-[]|[]\OT1/cmr/bx/n/24.88 Unidad[]| 
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 108.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <15> not available
+(Font)              size <14.4> substituted on input line 108.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.49995> not available
+(Font)              size <10.95> substituted on input line 108.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.5> not available
+(Font)              size <7> substituted on input line 108.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 108.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.49995> not available
+(Font)              size <10.95> substituted on input line 108.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 108.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 108.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.49995> not available
+(Font)              size <10.95> substituted on input line 108.
+
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7.5> on input line 108.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 142.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 193.
+
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 194.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 194.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
+(Font)              size <12> substituted on input line 194.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
+(Font)              size <6> substituted on input line 194.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 194.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 194.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 194.
+
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <6.5> on input line 194.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13> not available
+(Font)              size <12> substituted on input line 196.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+[]|\OT1/cmr/m/n/12 U2: So-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
-[]|\OT1/cmr/m/n/24.88 U1:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
-\OT1/cmr/m/n/24.88 Fun-da-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
-\OT1/cmr/m/n/24.88 men-tos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
-\OT1/cmr/m/n/24.88 men-sion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
-\OT1/cmr/m/n/24.88 So-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
-\OT1/cmr/m/n/24.88 ciotec-ni-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
-\OT1/cmr/m/n/24.88 vaci-dad
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-[]|\OT1/cmr/m/n/24.88 U4:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-\OT1/cmr/m/n/24.88 Ex-pli-ca-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
-\OT1/cmr/m/n/24.88 spon-s-
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+[]|\OT1/cmr/m/n/12 Actores, poder, reg-u-laci^^Son
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 233.
+(Font)              size <17.28> substituted on input line 224.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 233.
+(Font)              size <17.28> substituted on input line 225.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <16> not available
+(Font)              size <17.28> substituted on input line 229.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/it' in size <16> not available
+(Font)              size <17.28> substituted on input line 229.
 
 
 
@@ -572,7 +612,7 @@ Non-PDF special ignored!
 <special> header=./a0header.ps
 Non-PDF special ignored!
 <special> papersize=91.51cm,120cm
-{c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./poster.aux
+{c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../../Logos/logo-uc-02.pdf> <../../Logos/logo_uc_f.png>] (./poster.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -583,22 +623,22 @@ L3 programming layer <2025-01-18>
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 5.7pt have occurred.
+(Font)              up to 6.08pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 14243 strings out of 475170
- 298544 string characters out of 5763938
- 802201 words of memory out of 5000000
- 37014 multiletter control sequences out of 15000+600000
- 565986 words of font info for 60 fonts, out of 8000000 for 9000
+ 14310 strings out of 475170
+ 299794 string characters out of 5763938
+ 790360 words of memory out of 5000000
+ 37075 multiletter control sequences out of 15000+600000
+ 570853 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 84i,8n,93p,408b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on poster.pdf (1 page, 89047 bytes).
+ 84i,9n,93p,408b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/esteb/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on poster.pdf (1 page, 426074 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
