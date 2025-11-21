@@ -1,0 +1,54 @@
+% ============================================================
+% COLUMNA 1
+% ============================================================
+
+\begin{sectionbox}{ucred}{POSTURA CENTRAL}
+
+\fcolorbox{ucred}{uclight}{%
+\begin{minipage}[c]{0.96\linewidth}
+{\fontsize{22}{26}\selectfont \textbf{\textcolor{darktext}{``Si bien los algoritmos de redes sociales facilitan la polarización, el factor determinante en la erosión democrática en Chile no es la tecnología per se, sino la ausencia de un marco regulatorio efectivo que sancione su instrumentalización deliberada por actores políticos para difundir desinformación coordinada.''}}}
+\end{minipage}%
+}
+
+\vspace{0.2cm}
+
+\subsection*{\textcolor{ucblue}{\Large Tres Consecuencias Negativas}}
+{\fontsize{20}{24}\selectfont
+\begin{itemize}
+    \setlength{\itemsep}{0.15cm}
+    \item[\textcolor{ucred}{\textbf{\ensuremath{\blacktriangleright}}}] \textbf{Limitación del diálogo}: ``Burbujas de filtro'' impiden exposición diversa
+    \item[\textcolor{ucred}{\textbf{\ensuremath{\blacktriangleright}}}] \textbf{Facilitación de desinformación}: Algoritmos priorizan engagement
+    \item[\textcolor{ucred}{\textbf{\ensuremath{\blacktriangleright}}}] \textbf{Reproducción de sesgos}: IA aprende y refuerza prejuicios
+\end{itemize}
+}
+
+\vspace{0.2cm}
+\fcolorbox{ucblue}{white}{%
+\begin{minipage}[c]{0.96\linewidth}
+\centering
+{\fontsize{20}{24}\selectfont \textit{``La desinformación es un problema tecnológico en su forma, pero profundamente humano en su fondo.''}}
+\end{minipage}%
+}
+
+\vspace{0.3cm}
+
+\begin{center}
+\begin{tikzpicture}[>=stealth, thick, scale=0.9, transform shape]
+    % Nodos con tamaño fijo y ancho de texto ajustado para evitar desbordes
+    \node[draw, circle, fill=uclight, minimum size=6cm, text width=5.2cm, align=center, drop shadow, font=\fontsize{16}{19}\selectfont] (pol) at (0, 3.5) {\textbf{POLARIZACIÓN}};
+    
+    \node[draw, circle, fill=uclight, minimum size=6cm, text width=5.2cm, align=center, drop shadow, font=\fontsize{16}{19}\selectfont] (des) at (6, -3.5) {\textbf{DESINFORMACIÓN}};
+    
+    \node[draw, circle, fill=ucred, text=white, minimum size=6cm, text width=5.2cm, align=center, drop shadow, font=\fontsize{16}{19}\selectfont] (mas) at (-6, -3.5) {\textbf{MÁS POLARIZACIÓN}};
+
+    % Flechas con curvatura ajustada
+    \draw[->, ucred, line width=3.5pt] (pol) to[bend left=25] (des);
+    \draw[->, ucred, line width=3.5pt] (des) to[bend left=25] (mas);
+    \draw[->, ucred, line width=3.5pt] (mas) to[bend left=25] (pol);
+
+    % Fuente
+    \node[below=0.5cm, font=\small\itshape, text=gray] at (0,-7) {Fuente: Basado en Tercer Estudio Nacional de Polarizaciones};
+\end{tikzpicture}
+\end{center}
+
+\end{sectionbox}

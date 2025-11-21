@@ -1,0 +1,40 @@
+\begin{sectionbox}{ucblue}{ANÁLISIS SOCIOTÉCNICO}
+
+\subsection*{\textbf{\textcolor{darktext}{Anatomía de la Manipulación}}}
+\begin{center}
+\begin{tikzpicture}[node distance=1.0cm, auto, >=stealth, thick, scale=0.9, transform shape]
+    \node[draw, rectangle, rounded corners, fill=ucred, text=white, font=\fontsize{20}{24}\selectfont\bfseries, minimum width=18cm, minimum height=1.5cm, drop shadow] (emocion) {EMOCIÓN FUERTE (Miedo/Ira)};
+    \node[draw, rectangle, rounded corners, fill=uclight, font=\fontsize{20}{24}\selectfont, minimum width=18cm, minimum height=1.5cm, drop shadow, below=of emocion] (infra) {INFRAESTRUCTURA (Bots/Granjas)};
+    \node[draw, rectangle, rounded corners, fill=uclight, font=\fontsize{20}{24}\selectfont, minimum width=18cm, minimum height=1.5cm, drop shadow, below=of infra] (tecnicas) {TÉCNICAS (Deepfakes/Contexto)};
+    \node[draw, rectangle, rounded corners, fill=ucblue, text=white, font=\fontsize{20}{24}\selectfont\bfseries, minimum width=18cm, minimum height=1.5cm, drop shadow, below=of tecnicas] (impacto) {AMPLIFICACIÓN VIRAL};
+
+    \draw[->, line width=2.5pt] (emocion) -- (infra);
+    \draw[->, line width=2.5pt] (infra) -- (tecnicas);
+    \draw[->, line width=2.5pt] (tecnicas) -- (impacto);
+\end{tikzpicture}
+\end{center}
+
+\subsection*{\textbf{\textcolor{darktext}{Falacias y Tácticas Retóricas (Guía UCR)}}}
+{\fontsize{20}{24}\selectfont
+\begin{itemize}
+    \setlength{\itemsep}{0.15cm}
+    \item \textbf{Ad Hominem}: Atacar a la persona en lugar de la idea.
+    \item \textbf{Whataboutism}: Desviar acusación con contraacusación ("¿Y tú qué?").
+    \item \textbf{Chivo Expiatorio}: Culpar a un grupo sin pruebas (simplificación).
+\end{itemize}
+}
+
+\vspace{0.3cm}
+
+\subsection*{\textbf{\textcolor{darktext}{Ecosistema Digital Chileno}}}
+{\fontsize{20}{24}\selectfont
+\begin{itemize}
+    \setlength{\itemsep}{0.15cm}
+    \item \textbf{17,85M} usuarios en redes sociales (92\% poblacional)
+    \item \textbf{20,000} bots coordinados (Elección 2021)
+    \item \textbf{72,9\%} vio fake news en Twitter (Plebiscito 2022)
+    \item \textbf{49\%} se encuentra noticias falsas diariamente
+\end{itemize}
+}
+
+\end{sectionbox}

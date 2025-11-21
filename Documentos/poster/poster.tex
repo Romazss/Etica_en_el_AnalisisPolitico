@@ -1,15 +1,20 @@
 \documentclass[a0paper,landscape]{a0poster}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
+\usepackage{lmodern} % Fuentes escalables
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{multicol}
 \usepackage{array}
 \usepackage{geometry}
 \usepackage{booktabs}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{environ}
+\usetikzlibrary{shapes,arrows,positioning,shadows,trees,fit,backgrounds,babel}
 
 % Configurar márgenes optimizados para A0 landscape
-\geometry{margin=1.5cm, top=1.2cm, bottom=1.2cm}
+\geometry{margin=1.5cm, top=0.5cm, bottom=1.0cm}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.06cm}
 
@@ -20,47 +25,47 @@
 \definecolor{ucgreen}{RGB}{34, 139, 34}        % Verde para soluciones
 \definecolor{darktext}{RGB}{33, 37, 41}        % Texto oscuro UC
 
-\begin{document}
-
 % ============================================================
-% ENCABEZADO PROFESIONAL CON LOGOS
+% DEFINICIÓN DE CAJA ESTILO PÓSTER (SECTIONBOX)
 % ============================================================
+\newsavebox{\sectionboxcontent}
+\NewEnviron{sectionbox}[2]{% #1=Color, #2=Title
+\savebox{\sectionboxcontent}{%
+    \begin{minipage}{0.95\linewidth}
+        \vspace{35pt}
+        \BODY
+        \vspace{10pt}
+    \end{minipage}%
+}
 \begin{center}
-
-% Logos en minipage
-\begin{minipage}[t]{0.15\textwidth}
-\centering
-\includegraphics[width=0.95\textwidth]{../../Logos/logo-uc-02.pdf}
-\end{minipage}%
-\hfill
-\begin{minipage}[t]{0.73\textwidth}
-\centering
-\vspace{-0.3cm}
-
-% TÍTULO PRINCIPAL - MÁS GRANDE
-{\fontsize{120}{140}\selectfont \textcolor{ucblue}{\textbf{ALGORITMOS Y POLARIZACIÓN POLÍTICA}}}
-
-\vspace{0.3cm}
-
-% Subtítulo
-{\fontsize{58}{68}\selectfont \textcolor{ucblue}{\textbf{Panorámica de la Democracia Chilena 2021-2025}}}
-
-\vspace{0.15cm}
-
-% Información institucional
-{\fontsize{26}{32}\selectfont \textcolor{darktext}{Proyecto Final — Ética de la IA — Pontificia Universidad Católica}}
-
-\vspace{-0.1cm}
-\end{minipage}%
-
-\vspace{0.2cm}
-
-% Línea decorativa profesional
-\noindent\makebox[\linewidth]{\textcolor{ucblue}{\rule{\textwidth}{6pt}}}
-
-\vspace{0.5cm}
-
+\begin{tikzpicture}
+\node [
+    draw=#1,
+    line width=2pt,
+    fill=white,
+    rounded corners=15pt,
+    drop shadow={opacity=0.3,shadow xshift=3pt,shadow yshift=-3pt},
+    inner sep=10pt
+] (box) {
+    \usebox{\sectionboxcontent}
+};
+\node[
+    fill=#1,
+    text=white,
+    font=\bfseries\LARGE,
+    rounded corners=10pt,
+    anchor=west,
+    xshift=20pt
+] at (box.north west) { \vphantom{Ag} #2 };
+\end{tikzpicture}
 \end{center}
+\vspace{0.5cm}
+}
+
+\begin{document}
+\shorthandoff{>}\shorthandoff{<}
+
+\input{sections/01_header.tex}
 
 % ============================================================
 % CONTENIDO EN 3 COLUMNAS CON MEJOR ESTRUCTURA
@@ -71,374 +76,18 @@
 
 \begin{multicols}{3}
 
-% ============================================================
-% COLUMNA 1
-% ============================================================
+\input{sections/02_postura.tex}
+\input{sections/03_analisis.tex}
+\input{sections/04_casos.tex}
 
-\section*{\textcolor{ucred}{\LARGE POSTURA CENTRAL}}
+\input{sections/05_desinformacion.tex}
+\input{sections/06_actores.tex}
 
-\fcolorbox{ucred}{uclight}{%
-\begin{minipage}[c]{0.96\linewidth}
-{\fontsize{40}{48}\selectfont \textbf{\textcolor{darktext}{Los algoritmos de redes sociales fomentan activamente la polarización política, erosionando la calidad democrática en Chile.}}}
-\end{minipage}%
-}
-
-\vspace{0.25cm}
-
-\subsection*{\textcolor{ucblue}{\Large Tres Consecuencias Negativas}}
-{\fontsize{22}{26}\selectfont
-\begin{itemize}
-    \setlength{\itemsep}{0.2cm}
-    \item[\textcolor{ucred}{\textbf{▸}}] \textbf{Limitación del diálogo}: ``Burbujas de filtro'' impiden exposición diversa
-    \item[\textcolor{ucred}{\textbf{▸}}] \textbf{Facilitación de desinformación}: Algoritmos priorizan engagement
-    \item[\textcolor{ucred}{\textbf{▸}}] \textbf{Reproducción de sesgos}: IA aprende y refuerza prejuicios
-\end{itemize}
-}
-
-\vspace{0.5cm}
-
-\section*{\textcolor{ucblue}{\LARGE ANÁLISIS SOCIOTÉCNICO}}
-
-\subsection*{\textbf{\textcolor{darktext}{Mecanismos de Recomendación}}}
-{\fontsize{18}{22}\selectfont
-\begin{enumerate}
-    \setlength{\itemsep}{0.15cm}
-    \item Extracción de datos del perfil
-    \item Aprendizaje automático con patrones
-    \item Predicción de engagement
-    \item Personalización del feed
-    \item[\textbf{\textcolor{ucred}{→}}] \textbf{Resultado: Burbuja de Filtro}
-\end{enumerate}
-}
-
-\vspace{0.4cm}
-
-\subsection*{\textbf{\textcolor{darktext}{Ecosistema Digital Chileno}}}}
-{\fontsize{19}{23}\selectfont
-\begin{itemize}
-    \setlength{\itemsep}{0.15cm}
-    \item \textbf{17,85M} usuarios en redes sociales (92\% poblacional)
-    \item \textbf{20,000} bots coordinados (Elección 2021)
-    \item \textbf{72,9\%} vio fake news en Twitter (Plebiscito 2022)
-    \item \textbf{49\%} se encuentra noticias falsas diariamente
-\end{itemize}
-}
-
-\vspace{0.5cm}
-
-\section*{\textcolor{ucblue}{\LARGE CASOS CHILENOS (2021-2025)}}
-
-\subsection*{\textcolor{ucred}{\textbf{2021: Bots y Segmentación Generacional}}}
-{\fontsize{18}{22}\selectfont
-\textbf{Plataformas:} TikTok (generacional), WhatsApp (cerrada)
-
-\textbf{Mecanismo:} 20,000 bots crean consenso falso, hacen radicales parecer populares
-
-\textbf{Resultado:} Debate polarizado sin diálogo transversal
-}
-
-\vspace{0.3cm}
-
-\subsection*{\textcolor{ucred}{\textbf{2022-2023: Plebiscito Manipulado}}}
-{\fontsize{18}{22}\selectfont
-\textbf{1 abril 2022 (Inflexión CADEM):} Titular de Fontaine ``Con mi plata'' --- trabajadores pierden ahorros
-
-\textbf{Campaña sistemática:} 5 meses (3 fuera de legalidad), miedo vs. debate
-
-\textbf{Temas falsedades:} Pensiones, vivienda (``quitan casas''), salud (``todos a FONASA'')
-
-\textbf{Resultado:} 61,89\% Rechazo | 72,9\% vio desinformación en Twitter
-}
-
-\vspace{0.3cm}
-
-\subsection*{\textcolor{ucred}{\textbf{2024-2025: Red de Bots AFP}}}
-{\fontsize{18}{22}\selectfont
-\textbf{Candidatas atacadas:} Evelyn Matei (``Alzheimer falso''), Janet Jara (videos adulterados)
-
-\textbf{Financiador:} Asociación de AFP (Plan Vital-Generali, Provida-MetLife, AFP Hábitat-Prudential, Currum-Principal)
-
-\textbf{Coordinador:} Patricio Góngora (``Patito Verde'') - Dir. Comunicaciones AFP
-
-\textbf{Patrón:} 5 cuentas madre Partido Republicano = 76\% ataques a mujeres
-
-\textbf{Periodistas atacadas:} Mónica Rincón, Monserrat Álvarez, Diana Levín, Paloma Ávila
-}
-
-% ============================================================
-% COLUMNA 2
-% ============================================================
-
-\section*{\textcolor{ucblue}{\LARGE DESINFORMACIÓN DOCUMENTADA}}
-
-\subsection*{\textbf{\textcolor{darktext}{Percepción Ciudadana}}}}
-{\fontsize{19}{23}\selectfont
-\begin{itemize}
-    \setlength{\itemsep}{0.15cm}
-    \item \textbf{72,9\%} vio fake news en Twitter (Plebiscito 2022)
-    \item \textbf{74,4\%} demanda ley contra desinformación
-    \item \textbf{75,7\%} ve desinformación como amenaza democrática
-    \item \textbf{77\%} admite que debilita proceso electoral
-\end{itemize}
-}
-
-\vspace{0.3cm}
-
-\subsection*{\textbf{\textcolor{darktext}{WhatsApp: Arena Cerrada (Plataforma Telar)}}}}
-{\fontsize{18}{22}\selectfont
-\begin{itemize}
-    \setlength{\itemsep}{0.12cm}
-    \item \textbf{25\%} de mensajes en grupos políticos = desinformación
-    \item \textbf{100\%} de fake news sobre Convención = pro-rechazo
-    \item \textbf{0\%} desinformación pro-apruebo (asimetría total)
-    \item Caja negra cerrada: regulación imposible
-\end{itemize}
-}
-
-\vspace{0.5cm}
-
-\section*{\textcolor{ucblue}{\LARGE ACTORES CLAVE}}
-
-{\fontsize{18}{22}\selectfont
-\textbf{\textcolor{ucred}{■}} \textbf{Asimetría}: Usuarios ignoran algoritmos; actores políticos + AFP coordinan
-
-\textbf{\textcolor{ucred}{■}} \textbf{Poder Concentrado}: Meta, X, TikTok; grupos financieros transnacionales
-
-\textbf{\textcolor{ucred}{■}} \textbf{Opacidad Total}: Caja negra, sin auditoría independiente, financiamiento clandestino
-
-\textbf{\textcolor{ucred}{■}} \textbf{Financiamiento Oculto}: AFP burlan leyes via Asociación; \$\$ en influencers, bots, deepfakes
-}
-
-\vspace{0.5cm}
-
-\section*{\textcolor{ucgreen}{\LARGE RIESGOS ÉTICOS}}
-
-{\fontsize{18}{22}\selectfont
-\begin{itemize}
-    \setlength{\itemsep}{0.15cm}
-    \item \textcolor{ucred}{\textbf{Erosión democrática}}: Sin consenso en hechos; cada ciudadano = burbuja propia
-    \item \textcolor{ucred}{\textbf{Polarización subjetiva}}: Imaginamos al otro extremista. Realidad: 73\% creen derecha prohibe aborto vs. 40\% real
-    \item \textcolor{ucred}{\textbf{Manipulación de género}}: 76\% ataques a mujeres candidatas, periodistas
-    \item \textcolor{ucred}{\textbf{Radicalización gradual}}: Bots transforman burbuja en realidad percibida
-\end{itemize}
-}
-
-\vspace{0.5cm}
-
-\section*{\textcolor{ucgreen}{\LARGE PROPUESTAS VIABLES}}
-
-{\fontsize{17}{21}\selectfont
-\begin{enumerate}
-    \setlength{\itemsep}{0.15cm}
-    \item \textbf{Transparencia algorítmica}: Auditorías externas + derecho a saber por qué ves cada contenido
-    \item \textbf{Vacunación cognitiva}: Juegos (Bad News, Harmony Square), precisión antes de compartir
-    \item \textbf{Diseño ético}: Veracidad sobre engagement; 72,9\% comparte sin leer
-    \item \textbf{Regulación (UE DSA)}: Multas 10\% facturación; Brasil: removición proactiva; Chile: 11 leyes dormidas
-    \item \textbf{Red fact-checking}: 40+ medios (AFP, Mala Espina) unidos contra desinformación electoral
-\end{enumerate}
-}
-
-\vspace{0.5cm}
-
-\section*{\textcolor{ucblue}{\LARGE INTEGRACIÓN ACADÉMICA}}
-
-{\fontsize{16}{20}\selectfont
-\begin{tabular}{ll}
-\toprule
-\textbf{\textcolor{ucblue}{Unidad}} & \textbf{\textcolor{ucblue}{Integración}} \\
-\midrule
-U1: IA & Sesgos, ML, deepfakes en campañas \\
-U2: Sociotec & Actores (AFP, Republicanos, plataformas), poder asimétrico \\
-U3: Datos & Extracción perfil $\to$ micro-targeting politico \\
-U4: Explicabilidad & Algoritmos caja negra financian bots \\
-U5: Responsabilidad & Vacío legal Chile; DSA EU; brecha regulatoria \\
-\bottomrule
-\end{tabular}
-}
-
-\vspace{0.5cm}
-
-\section*{\textcolor{ucblue}{\LARGE REFERENCIAS}}
-
-{\fontsize{16}{20}\selectfont
-\textbf{Teóricos:} Sunstein (Burbujas filtro) | Pariser (Impacto democracia) | Lazer (Ciencia fake news)
-
-\textbf{Investigaciones:} CIPER (Plebiscito 2022) | Plataforma Telar (Convención) | Comisión Asesora Desinformación
-
-\textbf{Actores:} Gonzalo Winter (AFP transnacionales) | El Desconcierto (Género) | CNN (WhatsApp)
-
-\textbf{Modelos:} UE (DSA: multas 10\%) | Brasil (removición proactiva) | Chile (vacío regulatorio)
-}
-
-\vspace{0.6cm}
-
-\begin{center}
-{\fontsize{22}{26}\selectfont \textbf{\textcolor{ucred}{¿Queremos que AFP y algoritmos decidan qué verdades ve Chile?}}}
-
-\vspace{0.2cm}
-
-{\fontsize{20}{24}\selectfont \textbf{\textcolor{ucgreen}{Democracia requiere hechos compartidos y ciudadanía informada}}}
-
-\vspace{0.1cm}
-
-{\fontsize{18}{22}\selectfont \textit{Si educación, datos y verificación no convencen, ¿qué tiende puentes en mundo de burbujas?}}
-\end{center}
+\input{sections/07_riesgos.tex}
+\input{sections/08_propuestas.tex}
 
 \end{multicols}
 
-% ============================================================
-% PIE DE PÁGINA PROFESIONAL
-% ============================================================
-
-\vspace{0.8cm}
-\noindent\makebox[\linewidth]{\textcolor{ucred}{\rule{\textwidth}{3pt}}}
-
-\begin{center}
-{\fontsize{20}{24}\selectfont \textbf{Basado en: NotebookLM | Plataforma Telar | CIPER | Análisis Académicos (2021-2025)}}
-
-\vspace{0.2cm}
-
-{\fontsize{18}{22}\selectfont Proyecto Final — Ética en el Análisis Político — Noviembre 2025}
-\end{center}
-
-\end{document}
-    \item 17,85M usuarios en redes sociales
-    \item 92\% de la población conectada
-    \item 20,000 bots elección 2021
-    \item 72,9\% vio fake news Twitter (2022)
-\end{itemize}
-}
-
-% COLUMNA 2: CASOS CHILENOS Y DESINFORMACIÓN
-\section*{\textcolor{ucblue}{CASOS CHILENOS (2021-2025)}}
-
-\subsection*{\textbf{\textcolor{ucred}{Eleccion Presidencial 2021}}}
-\textbf{Protagonistas:} Boric vs. Kast | \textbf{Plataforma clave:} TikTok \\
-\textbf{Impacto:} Segmentación generacional extrema, 20,000 bots operando
-
-\subsection*{\textbf{\textcolor{ucred}{Plebiscitos 2022-2023}}}
-\textbf{Campaña sistematica}: 5 meses (3 fuera del período legal) \\
-\textbf{Estrategia}: Apelar al miedo, no al debate \\
-\textbf{Temas manipulados}: Pensiones (``Con mi plata''), vivienda, salud, educacion
-
-\vspace{0.3cm}
-\textbf{\textcolor{ucblue}{Punto clave}}: 1 abril 2022 - Titular falso Fontaine coincidió con inflexión CADEM
-
-\subsection*{\textbf{\textcolor{ucred}{Campañas 2024-2025}}}
-\textbf{Red de bots contra candidatas}: Evelyn Matei (Alzheimer falso) y Janet Jara (videos adulterados) \\
-\textbf{Origenes}: Asociacion de AFP financiando operaciones clandestinas \\
-\textbf{Herramienta}: ``Cuentas madre'' del Partido Republicano (76\% ataques a mujeres)
-
-\vspace{0.25cm}
-
-\section*{\textcolor{ucblue}{DESINFORMACION DOCUMENTADA}}
-
-\subsection*{\textbf{Datos de Desinformación:}}
-{\fontsize{15}{18}\selectfont
-\begin{itemize}
-    \setlength{\itemsep}{0.1cm}
-    \item \textbf{72,9\%} vio fake news en Twitter (2022)
-    \item \textbf{49\%} se topa noticias falsas diariamente
-    \item \textbf{74,4\%} apoya sancionar fake news
-    \item \textbf{75,7\%} ve desinformación como amenaza
-\end{itemize}
-}
-
-\subsection*{\textbf{WhatsApp:}}
-{\fontsize{15}{18}\selectfont
-\begin{itemize}
-    \setlength{\itemsep}{0.1cm}
-    \item 25\% mensajes contienen desinformación
-    \item 100\% desinformación pro-rechazo
-    \item Plataforma cerrada impide regulación
-\end{itemize}
-}
-
-% COLUMNA 3: ACTORES, ANÁLISIS ÉTICO Y PROPUESTAS
-\section*{\textcolor{ucblue}{ACTORES CLAVE}}
-{\fontsize{15}{18}\selectfont
-\textbf{Asimetría:} Usuarios desconocen cómo operan algoritmos \\
-\textbf{Poder:} Meta, X, TikTok dominan infraestructura \\
-\textbf{Transparencia:} Caja negra sin auditoría independiente \\
-\textbf{Financiamiento:} AFP transnacionales en campañas encubiertas
-}
-
-\section*{\textcolor{ucgreen}{RIESGOS ETICOS}}
-{\fontsize{15}{18}\selectfont
-\begin{itemize}
-    \setlength{\itemsep}{0.1cm}
-    \item \textcolor{ucred}{\textbf{Erosión}}: Sin consenso en hechos
-    \item \textcolor{ucred}{\textbf{Manipulación}}: Micro-targeting vulnerable
-    \item \textcolor{ucred}{\textbf{Polarización}}: Cree 73\% vs aborto; realidad 40\%
-    \item \textcolor{ucred}{\textbf{Radicalización}}: Gradual a extremismo
-\end{itemize}
-}
-
-\vspace{0.2cm}
-
-\section*{\textcolor{ucgreen}{PROPUESTAS}}
-{\fontsize{15}{18}\selectfont
-\begin{enumerate}
-    \setlength{\itemsep}{0.12cm}
-    \item \textbf{Transparencia algorítmica}: Auditorías independientes, derecho a entender selección
-    \item \textbf{Alfabetización digital}: Vacunas cognitivas, educación crítica
-    \item \textbf{Diseño ético}: Veracidad sobre engagement, auditoría de sesgos
-    \item \textbf{Regulación política}: Registro público, límites a micro-targeting
-\end{enumerate}
-}
-
-\section*{\textcolor{ucblue}{CONCEPTOS DEL CURSO}}
-{\fontsize{13}{16}\selectfont
-\begin{tabular}{|p{2.2cm}|p{5.8cm}|}
-\hline
-\textbf{\textcolor{ucblue}{U}} & \textbf{\textcolor{ucblue}{Integración}} \\
-\hline
-U1: IA & Sesgos en datos, aprendizaje automático \\
-\hline
-U2: Sociotec & Actores, poder, regulación política \\
-\hline
-U3: Datos & Extracción sin consentimiento \\
-\hline
-U4: Explica & Caja negra, falta de transparencia \\
-\hline
-U5: Resp & Vacío regulatorio, marcos internacionales \\
-\hline
-\end{tabular}
-}
-
-\section*{\textcolor{ucblue}{REFERENCIAS}}
-{\fontsize{14}{17}\selectfont
-\begin{itemize}
-    \setlength{\itemsep}{0.08cm}
-    \item Sunstein (2009): Burbujas de filtro | Pariser (2011): Impacto democracia
-    \item Lazer et al. (2018): Ciencia de fake news | CIPER: Análisis plebiscito
-    \item Plataforma Telar: Fact-checking proceso constituyente
-\end{itemize}
-}
-
-\vspace{0.2cm}
-
-\section*{\textcolor{ucblue}{CONCLUSION}}
-{\fontsize{16}{20}\selectfont
-\textbf{\textcolor{ucred}{Responsabilidad colectiva:}} Reguladores | Investigadores | Educadores | Ciudadanía
-
-\vspace{0.15cm}
-
-\textit{\textbf{\textcolor{ucred}{``¿Queremos que máquinas decidan qué hechos ve la ciudadanía?''}}}
-
-\textbf{\textcolor{ucgreen}{Pregunta fundamental de nuestra democracia}}
-}
-
-\end{multicols}
-
-\vspace{0.8cm}
-\noindent\rule{\textwidth}{2pt}
-
-% Pie de página
-\begin{center}
-{\fontsize{16}{20}\selectfont \textbf{Basado en: NotebookLM | Plataforma Telar | CIPER | Análisis Académicos (2021-2025)}}
-
-{\fontsize{14}{18}\selectfont Proyecto Final - Ética en el Análisis Político | Noviembre 2025}
-\end{center}
+\input{sections/09_reflexion.tex}
 
 \end{document}

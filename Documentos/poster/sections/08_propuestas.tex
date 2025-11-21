@@ -1,0 +1,26 @@
+\begin{sectionbox}{ucgreen}{PROPUESTAS VIABLES}
+
+{\fontsize{20}{24}\selectfont
+\begin{enumerate}
+    \setlength{\itemsep}{0.15cm}
+    \item \textbf{Transparencia algorítmica}: Auditorías externas + derecho a saber por qué ves cada contenido
+    \item \textbf{Estrategia de Inoculación (Pre-bunking)}:
+    \begin{center}
+    \begin{tikzpicture}[node distance=1cm, auto, >=stealth, scale=1.1, transform shape]
+        \node[draw, rectangle, rounded corners, fill=uclight, align=center] (exp) {1. Advertencia\\(Exposición Debilitada)};
+        \node[draw, rectangle, rounded corners, fill=uclight, right=of exp, align=center] (comp) {2. Refutación\\(Comprensión)};
+        \node[draw, rectangle, rounded corners, fill=ucgreen, text=white, right=of comp, align=center] (res) {3. Inmunidad\\(Resistencia)};
+        \draw[->, thick] (exp) -- (comp);
+        \draw[->, thick] (comp) -- (res);
+
+        % Source
+        \node[below=0.2cm of comp, font=\scriptsize\itshape, text=gray] {Fuente: UCR / Psicología Social};
+    \end{tikzpicture}
+    \end{center}
+    \item \textbf{Diseño ético}: Veracidad sobre engagement
+    \item \textbf{Regulación (UE DSA)}: Multas 10\% facturación; Brasil: removición proactiva; Chile: 11 leyes dormidas
+    \item \textbf{Red fact-checking}: 40+ medios (AFP, Mala Espina) unidos contra desinformación electoral
+\end{enumerate}
+}
+
+\end{sectionbox}
