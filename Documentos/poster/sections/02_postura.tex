@@ -33,18 +33,19 @@
 \vspace{0.3cm}
 
 \begin{center}
-\begin{tikzpicture}[>=stealth, thick, scale=0.9, transform shape]
+% Increased scale + circle size for better visual balance and to use page space
+\begin{tikzpicture}[>=stealth, thick, scale=1.05, transform shape]
     % Nodos con tamaño fijo y ancho de texto ajustado para evitar desbordes
-    \node[draw, circle, fill=uclight, minimum size=6cm, text width=5.2cm, align=center, drop shadow, font=\fontsize{16}{19}\selectfont] (pol) at (0, 3.5) {\textbf{POLARIZACIÓN}};
+    \node[draw, circle, fill=uclight, minimum size=7.2cm, text width=6.2cm, align=center, drop shadow, font=\fontsize{18}{22}\selectfont] (pol) at (0, 3.5) {\textbf{POLARIZACIÓN}};
     
-    \node[draw, circle, fill=uclight, minimum size=6cm, text width=5.2cm, align=center, drop shadow, font=\fontsize{16}{19}\selectfont] (des) at (6, -3.5) {\textbf{DESINFORMACIÓN}};
+    \node[draw, circle, fill=uclight, minimum size=7.2cm, text width=6.2cm, align=center, drop shadow, font=\fontsize{18}{22}\selectfont] (des) at (7.4, -3.5) {\textbf{DESINFORMACIÓN}};
     
-    \node[draw, circle, fill=ucred, text=white, minimum size=6cm, text width=5.2cm, align=center, drop shadow, font=\fontsize{16}{19}\selectfont] (mas) at (-6, -3.5) {\textbf{MÁS POLARIZACIÓN}};
+    \node[draw, circle, fill=ucred, text=white, minimum size=7.2cm, text width=6.2cm, align=center, drop shadow, font=\fontsize{18}{22}\selectfont] (mas) at (-7.4, -3.5) {\textbf{MÁS POLARIZACIÓN}};
 
     % Flechas con curvatura ajustada
-    \draw[->, ucred, line width=3.5pt] (pol) to[bend left=25] (des);
-    \draw[->, ucred, line width=3.5pt] (des) to[bend left=25] (mas);
-    \draw[->, ucred, line width=3.5pt] (mas) to[bend left=25] (pol);
+    \draw[->, ucred, line width=3.8pt] (pol) to[bend left=25] (des);
+    \draw[->, ucred, line width=3.8pt] (des) to[bend left=25] (mas);
+    \draw[->, ucred, line width=3.8pt] (mas) to[bend left=25] (pol);
 
     % Fuente
     \node[below=0.5cm, font=\small\itshape, text=gray] at (0,-7) {Fuente: Basado en Tercer Estudio Nacional de Polarizaciones};

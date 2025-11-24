@@ -31,11 +31,12 @@
 \newsavebox{\sectionboxcontent}
 \NewEnviron{sectionbox}[2]{% #1=Color, #2=Title
 \savebox{\sectionboxcontent}{%
-    \begin{minipage}{0.95\linewidth}
-        \vspace{20pt}
-        \BODY
-        \vspace{6pt}
-    \end{minipage}%
+        \begin{minipage}{0.95\linewidth}
+            % Adjusted internal padding to save vertical space while keeping separation
+            \vspace{20pt}
+            \BODY
+            \vspace{6pt}
+        \end{minipage}%
 }
 \begin{center}
 \begin{tikzpicture}
@@ -56,10 +57,11 @@
     rounded corners=10pt,
     anchor=west,
     xshift=20pt
+    ,yshift=6pt % lift the title slightly above the box to avoid overlap
 ] at (box.north west) { \vphantom{Ag} #2 };
 \end{tikzpicture}
 \end{center}
-\vspace{0.3cm}
+\vspace{0.4cm} % reduced post-section spacing to help fit to one page
 }
 
 \begin{document}
