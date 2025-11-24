@@ -91,7 +91,20 @@ Tres efectos negativos principales:
 ## 👥 Equipo
 
 *Integrantes del grupo:*
-- [Por definir]
+- Estebán Román
+- Benjamín Vásquez
+- Zhibin Xue
+- Joaquín Lorca
+- Nicolás Hormann
+
+*Profesora (asesoría académica):* Gabriela Arriagada
+
+*Roles y responsabilidades (a confirmar por el equipo):*
+- Investigación técnica (algoritmos, IA)
+- Investigación de casos chilenos
+- Análisis ético y filosófico
+- Diseño visual del póster
+- Búsqueda bibliográfica
 
 *Roles y responsabilidades:*
 - Investigación técnica (algoritmos, IA)
@@ -168,8 +181,58 @@ Este proyecto examina cuidadosamente:
 
 ## 📝 Última Actualización
 
-Noviembre 15, 2025
+Noviembre 24, 2025
 
 ---
 
 **¿Interesado en colaborar?** Revisa `Propuesta_Proyecto_Polarizacion_Algoritmica.md` y contacta a los integrantes del equipo.
+
+## 📬 Contacto
+
+Para consultas, colaboración o preguntas sobre el proyecto, apunta a uno de los integrantes o al equipo. Por favor, actualiza esta sección con los datos de contacto reales (email, GitHub, LinkedIn) de cada integrante.
+
+- Estebán Román — [ers@uc.cl]
+- Benjamín Vásquez — [benjaminvasquez@uc.cl]
+- Zhibin Xue — [email placeholder]
+- Joaquín Lorca — [email placeholder]
+- Nicolás Hormann — [email placeholder]
+- Profesora Gabriela Arriagada — [gcarriagada@uc.cl]
+
+
+
+## 📌 Póster Científico — Resumen y compilación
+
+El proyecto incluye un póster científico en formato A0 (horizontal) que sintetiza la investigación sobre algoritmos, desinformación y polarización política en Chile (2021–2025). El póster está diseñado para presentaciones orales de 10 minutos y tiene una estructura visual con 3 columnas, tipografía legible y diagramas sociotécnicos.
+
+Contenido resumido:
+- Postura ética central: los algoritmos no son la única causa; la ausencia de regulación y la instrumentalización política son factores determinantes
+- Análisis sociotécnico: anatomía de la manipulación (bots, técnicas, emoción, amplificación)
+- Casos chilenos: elecciones y plebiscitos 2021–2025 con ejemplos reales y estadísticas clave (por ejemplo, bots coordinados, percepción de desinformación)
+- Riesgos y propuestas: recomendaciones regulatorias, alfabetización y diseño ético de plataformas
+
+Dónde encontrarlo:
+- Póster en LaTeX: `Documentos/poster/poster.tex`
+- Resumen ejecutivo: `Documentos/poster/POSTER_CIENTIFICO.md`
+- Información de compilación y scripts: `Documentos/poster/README.md`
+- Secciones y elementos gráficos: `Documentos/poster/sections/`
+
+Cómo compilar (Linux / macOS):
+```bash
+cd Documentos/poster
+bash compile.sh
+```
+
+Cómo compilar (Windows PowerShell):
+```powershell
+cd Documentos\poster
+.\compile.ps1
+```
+
+Requisitos:
+- Distribución LaTeX completa (TeX Live o MiKTeX)
+- Paquetes: `a0poster`, `tikz`, `multicol`, `xcolor`, `babel` (incluidos en distribuciones estándar)
+
+Notas de presentación:
+- El póster está pensado para presentación en pantalla e impresión A0; la lectura debe ser clara en 2-3 minutos.
+- Recomendado: enfatizar los casos chilenos y proponer soluciones regulatorias y de diseño ético.
+

@@ -32,9 +32,9 @@
 \NewEnviron{sectionbox}[2]{% #1=Color, #2=Title
 \savebox{\sectionboxcontent}{%
     \begin{minipage}{0.95\linewidth}
-        \vspace{35pt}
+        \vspace{20pt}
         \BODY
-        \vspace{10pt}
+        \vspace{6pt}
     \end{minipage}%
 }
 \begin{center}
@@ -59,7 +59,7 @@
 ] at (box.north west) { \vphantom{Ag} #2 };
 \end{tikzpicture}
 \end{center}
-\vspace{0.5cm}
+\vspace{0.3cm}
 }
 
 \begin{document}
@@ -79,6 +79,8 @@
 \input{sections/02_postura.tex}
 \input{sections/03_analisis.tex}
 \input{sections/04_casos.tex}
+% Forzar inicio de la siguiente sección en la columna central (columna 2)
+\columnbreak
 
 \input{sections/05_desinformacion.tex}
 \input{sections/06_actores.tex}
